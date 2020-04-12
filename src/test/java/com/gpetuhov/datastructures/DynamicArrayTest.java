@@ -4,10 +4,10 @@ import org.junit.Test;
 
 public class DynamicArrayTest {
 
-    private DynamicArray array = new DynamicArray();
+    private DynamicArray array = new DynamicArray(2);
 
     @Test
     public void hello() {
-        array.hello();
+        System.out.println(array.get(0));
     }
 }
